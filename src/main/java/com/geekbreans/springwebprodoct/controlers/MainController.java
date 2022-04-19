@@ -25,6 +25,8 @@ public class MainController {
         return "products_page";
     }
 
+
+    // поиск продукта по id добавляем на вторую ветку в удаленном репозитории
     @GetMapping("/products/{id}")
     public String showStudentPage(Model model, @PathVariable Long id) {
         Product product = productRepository.findById(id);

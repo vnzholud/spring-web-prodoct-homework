@@ -39,4 +39,9 @@ public class ProductRepository {
     }
 
 
+    public void add(Product p) {
+
+        products.add(p);
+
+    }
 }
